@@ -3,7 +3,7 @@ import ContactUsHero from './components/ContactUsHero'
 import ContactUs from '@/components/ContactUs'
 import Map from './components/Map'
 
-const page = () => {
+const Page = () => {
   return (
     <main>
         <ContactUsHero/>
@@ -13,4 +13,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

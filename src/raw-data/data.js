@@ -2216,7 +2216,7 @@ export const techFrontend = [
                     <span className='font-semibold'>Fast Rendering:</span> React&apos;s virtual DOM ensures efficient updates, leading to improved performance and a smoother user experience.
                 </>,
                 <>
-                    <span className='font-semibold'>Ecosystem Integration:</span> We utilise React's ecosystem, including libraries like Redux for state management and React Router for navigation, to create feature-rich applications.
+                    <span className='font-semibold'>Ecosystem Integration:</span> We utilise React&apos;s ecosystem, including libraries like Redux for state management and React Router for navigation, to create feature-rich applications.
                 </>
         ],
         parTwo: "",
@@ -2232,7 +2232,7 @@ export const techFrontend = [
                     <span className='font-semibold'>Two-Way Data Binding:</span> This ensures that changes in the UI are reflected in the model and vice versa, simplifying data management.
                 </>,
                 <>
-                    <span className='font-semibold'>Dependency Injection:</span> Angular's built-in dependency injection makes it easier to manage services and components, enhancing modularity and testability.
+                    <span className='font-semibold'>Dependency Injection:</span> Angular&apos;s built-in dependency injection makes it easier to manage services and components, enhancing modularity and testability.
                 </>,
                 <>
                     <span className='font-semibold'>TypeScript Support:</span> Leveraging TypeScript improves code quality and maintainability, making it ideal for complex applications.

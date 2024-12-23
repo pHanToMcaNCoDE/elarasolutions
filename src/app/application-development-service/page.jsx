@@ -11,7 +11,7 @@ import ServiceCustomHero from '@/components/ServiceCustomHero'
 import OurCustomServices from '@/components/OurCustomServices'
 import ProductsPartner from '@/components/ProductsPartner'
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
       Why Choose<br className='lg:hidden'/> Elara Solutions <br className='lg:hidden'/>for Application Development?
@@ -40,4 +40,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

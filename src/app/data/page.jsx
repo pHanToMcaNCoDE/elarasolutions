@@ -15,7 +15,7 @@ import MoreTechnologies from '@/components/MoreTechnologies'
 import OurColabProcess from '@/components/OurColabProcess'
 import LongCard from '@/components/LongCard'
 
-const page = () => {
+const Page = () => {
     const [services, setServices] = useState(servicesData);
     const [header, setHeader] = useState((
       <>
@@ -58,4 +58,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

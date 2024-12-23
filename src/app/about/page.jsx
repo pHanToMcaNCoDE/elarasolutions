@@ -6,7 +6,7 @@ import HumansOfElara from './components/HumansOfElara'
 import JoinOurTeam from './components/JoinOurTeam'
 import AboutHero from './components/AboutHero'
 
-const page = () => {
+const Page = () => {
   return (
     <main>
         <AboutHero/>
@@ -19,4 +19,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

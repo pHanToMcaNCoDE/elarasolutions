@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import { BsArrowLeft } from "react-icons/bs";
 
-const page = () => {
+const Page = () => {
   return (
     <section className='bg-white py-[221px] w-full min-h-screen font-instrument'>
         <div className='max-w-[328px] sm:max-w-[1129px] mx-auto min-h-screen gap-[48px] flex flex-col justify-center items-start'>
@@ -50,4 +50,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

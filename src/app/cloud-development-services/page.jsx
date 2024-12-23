@@ -12,7 +12,7 @@ import OurCustomServices from '@/components/OurCustomServices'
 import ProductsPartner from '@/components/ProductsPartner'
 import FAQGeneral from '@/components/FAQGeneral'
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
       Why Choose<br className='lg:hidden'/> Elara Solutions <br className='lg:hidden'/>for Cloud Development?
@@ -48,4 +48,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

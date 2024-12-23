@@ -69,7 +69,7 @@ const ContactForm = () => {
         <div className="text-center mb-8">
           <h2 className="text-3xl font-extrabold text-gray-900">Contact Us</h2>
           <p className="mt-2 text-sm text-gray-600">
-            We'll get back to you within 24 hours
+            We&apos;ll get back to you within 24 hours
           </p>
         </div>
 
@@ -169,7 +169,7 @@ const ContactForm = () => {
                 <div className="flex">
                   <div className="ml-3">
                     <h3 className="text-sm font-medium text-green-800">
-                      Message sent successfully! We'll get back to you soon.
+                      Message sent successfully! We&apos;ll get back to you soon.
                     </h3>
                   </div>
                 </div>

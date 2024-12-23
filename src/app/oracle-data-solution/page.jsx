@@ -13,7 +13,7 @@ import MoreTechnologies from '@/components/MoreTechnologies'
 import TechnologiesProcess from '@/components/TechnologiesProcess'
 import CustomServicesCard from '@/components/CustomServicesCard';
 
-const page = () => {
+const Page = () => {
     const [services, setServices] = useState(servicesODS);
     const [header, setHeader] = useState((<>Why Choose Elara Solutions for <br className='lg:hidden'/> Oracle Data Solutions?</>));
     const [img, setImg] = useState(why);
@@ -49,4 +49,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

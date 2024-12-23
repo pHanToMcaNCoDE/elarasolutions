@@ -8,7 +8,7 @@ import { cases } from '@/raw-data/data';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 
 
-const page = () => {
+const Page = () => {
   return (
     <section className='bg-grayThree w-full pt-[120px] min-h-screen'>
         <div className='max-w-[1200px] mx-auto px-6 flex flex-col gap-[56px] pb-[200px] md:pb-[400px]'>
@@ -233,4 +233,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

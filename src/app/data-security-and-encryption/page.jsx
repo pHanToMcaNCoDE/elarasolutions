@@ -13,7 +13,7 @@ import TechnologiesProcess from '@/components/TechnologiesProcess'
 import SecurityTechnologiesHero from '@/components/SecurityTechnologiesHero'
 import CustomServicesCard from '@/components/CustomServicesCard'
 
-const page = () => {
+const Page = () => {
     const [services, setServices] = useState(servicesDSE);
     const [header, setHeader] = useState((<>Why Choose Elara Solutions <br className='lg:hidden'/>for Network Security?</>));
     const [img, setImg] = useState(why);
@@ -49,4 +49,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

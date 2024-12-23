@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import { MdOutlineArrowOutward } from 'react-icons/md'
 
-const page = () => {
+const Page = () => {
     
   return (
     <section className='bg-grayThree py-[120px] min-h-screen px-6'>
@@ -32,4 +32,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

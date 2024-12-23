@@ -13,7 +13,7 @@ import ProductsSuccessStories from '@/components/ProductsSuccessStories'
 import ProductsPartner from '@/components/ProductsPartner'
 import OurProducts from '../home/OurProducts'
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
         Why Choose Elara Solutions
@@ -44,4 +44,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

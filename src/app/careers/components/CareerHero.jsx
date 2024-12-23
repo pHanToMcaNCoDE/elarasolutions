@@ -15,8 +15,8 @@ const CareerHero = () => {
                 Working at <Image className='w-[307.54px] sm:w-[80%] xl:w-[615.08px] h-[36px] sm:h-full xl:h-[72px] object-cover' src={elara} alt='Elara Solutions'></Image>
             </div>
             <p className='w-full xl:w-[955px] leading-[22.4px] sm:leading-[28.8px] text-[.875rem] sm:text-[1rem] font-normal text-grayThirteen'>
-                Become a catalyst for change with us, as we disrupt the norm and set the bar to evolve into the agency defining the landscape of the future." In our vibrant workspace, we cultivate an environment that thrives on creativity, collaboration, and forward-thinking. 
-                As a collective force, we are not content with the ordinary; we are dedicated to reshaping the narrative and crafting a narrative that  resonates with the pulse of tomorrow's demands.
+                Become a catalyst for change with us, as we disrupt the norm and set the bar to evolve into the agency defining the landscape of the future. In our vibrant workspace, we cultivate an environment that thrives on creativity, collaboration, and forward-thinking. 
+                As a collective force, we are not content with the ordinary; we are dedicated to reshaping the narrative and crafting a narrative that  resonates with the pulse of tomorrow&apos;s demands.
             </p>
         </div>
         <div className='flex justify-center items-center gap-[5px] lg:gap-[32px]'>

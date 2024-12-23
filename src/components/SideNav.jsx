@@ -31,7 +31,7 @@ const SideNav = () => {
   };
   return (
     <div className={`w-[18%]  flex-col hidden xl:flex   h-screen  border-r  border-r-[#D0D3D9] px-6 overflow-y-auto`}>
-      <Image src={logo} className="mt-10  object-contain" />
+      <Image src={logo} className="mt-10  object-contain" alt="Elara Solutions Logo" />
 
       <div className="flex flex-col justify-between flex-1 mt-20">
         <div className="flex flex-col gap-1 ">

@@ -15,7 +15,7 @@ import OurProducts from '../home/OurProducts'
 import LoanEngineDevProcess from '@/components/LoanEngineDevProcess';
 import IndustriesWeServe from '../home/IndustriesWeServe';
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
         Why Choose Elara Solutions
@@ -47,4 +47,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -13,7 +13,7 @@ import FAQGeneral from '@/components/FAQGeneral'
 import OurDevProcess from '@/components/DataArchProcess';
 
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
       Why Choose<br className='lg:hidden'/> Elara Solutions <br className='lg:hidden'/>for  Snowflake Integration?
@@ -56,4 +56,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

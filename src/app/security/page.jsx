@@ -12,7 +12,7 @@ import FAQGeneral from '@/components/FAQGeneral'
 import PartnerWithElara from '@/components/PartnerWithElara'
 import MoreTechnologies from '@/components/MoreTechnologies'
 
-const page = () => {
+const Page = () => {
     const [services, setServices] = useState(servicesSecurity);
     const [header, setHeader] = useState((
       <>
@@ -57,4 +57,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

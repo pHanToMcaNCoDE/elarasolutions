@@ -13,7 +13,7 @@ import TechnologiesProcess from '@/components/TechnologiesProcess'
 import SecurityTechnologiesHero from '@/components/SecurityTechnologiesHero'
 import CustomServicesCard from '@/components/CustomServicesCard'
 
-const page = () => {
+const Page = () => {
     const [services, setServices] = useState(servicesCS);
     const [header, setHeader] = useState((<>Why Choose Elara Solutions for IAM?</>));
     const [img, setImg] = useState(why);
@@ -49,4 +49,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

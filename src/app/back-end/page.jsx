@@ -17,7 +17,7 @@ import PartnerWithElara from '@/components/PartnerWithElara'
 import MoreTechnologies from '@/components/MoreTechnologies'
 import OurColabProcess from '@/components/OurColabProcess'
 
-const page = () => {
+const Page = () => {
     const [services, setServices] = useState(servicesBackend);
     const [header, setHeader] = useState((
       <>
@@ -61,4 +61,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

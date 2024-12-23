@@ -14,7 +14,7 @@ import FAQGeneral from '@/components/FAQGeneral'
 import ConsultingServices from '@/components/ConsultingServices'
 import ConsultingTechnologies from '@/components/ConsultingTechnologies'
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
       Why Choose<br className='lg:hidden'/> Elara Solutions <br className='lg:hidden'/>for IT Consulting?
@@ -58,4 +58,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

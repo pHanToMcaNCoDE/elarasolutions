@@ -12,7 +12,7 @@ import ProductsPartner from '@/components/ProductsPartner'
 import OurDevProcess from '@/components/DataArchProcess'
 import FAQGeneral from '@/components/FAQGeneral'
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
       Why Choose<br className='lg:hidden'/> Elara Solutions <br className='lg:hidden'/>for Your Application Development?
@@ -56,4 +56,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

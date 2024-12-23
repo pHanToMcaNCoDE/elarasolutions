@@ -12,7 +12,7 @@ import OurDevProcess from '@/components/MobilAppDevProcess';
 import MobileDevSolution from '@/components/MobileDevSolution'
 
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
       Why Choose<br className='lg:hidden'/> Elara Solutions <br className='lg:hidden'/>for Mobile App Development?
@@ -45,4 +45,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

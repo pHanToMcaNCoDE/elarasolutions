@@ -7,7 +7,7 @@ import NurtureTalents from './components/NurtureTalents'
 import NoJobs from './components/NoJobs'
 import JobOpening from './components/JobOpening'
 
-const page = () => {
+const Page = () => {
   return (
     <main>
         <CareerHero/>
@@ -21,4 +21,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

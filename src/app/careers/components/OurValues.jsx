@@ -19,7 +19,7 @@ const OurValues = () => {
                 <div className='bg-blue w-[328px] md:w-[95%] xl:w-[600px] h-[320px] md:h-[400px] rounded-[8px] lg:rounded-[16px] py-[56px] lg:py-[60px] px-[16px] xl:px-[64px] lg:gap-[32px] gap-[16px] lg:px] flex flex-col justify-center items-center text-center'>
                     <Image className='object-cover w-[56px] lg:w-[80px] h-[56px] lg:h-[80px]cover' src={kite} alt='Object'></Image>
                     <h1 className='font-instrument text-[1.125rem] lg:text-[1.5rem] text-grayTwentyOne font-semibold'>Innovation</h1>
-                    <p className='leading-[19.6px] lg:leading-[25.2px] font-normal lg:text-[1.125rem] text-[.875rem] text-grayTwentyTwo'>We push the boundaries of what's possible by continuously developing new, future-focused IT solutions.</p>
+                    <p className='leading-[19.6px] lg:leading-[25.2px] font-normal lg:text-[1.125rem] text-[.875rem] text-grayTwentyTwo'>We push the boundaries of what&apos;s possible by continuously developing new, future-focused IT solutions.</p>
                 </div>
                 <div className='bg-graySeven w-[328px] md:w-[95%] xl:w-[600px] h-[320px] md:h-[400px] rounded-[8px] lg:rounded-[16px] py-[56px] lg:py-[60px] px-[16px] xl:px-[64px] gap-[16px] lg:gap-[32px] flex flex-col justify-center items-center text-center border border-grayFifteen'>
                     <Image className='object-cover w-[56px] lg:w-[80px] h-[56px] lg:h-[80px]' src={square} alt='Object'></Image>

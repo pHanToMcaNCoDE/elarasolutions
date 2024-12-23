@@ -13,7 +13,7 @@ import MoreTechnologies from '@/components/MoreTechnologies'
 import TechnologiesProcess from '@/components/TechnologiesProcess'
 import CustomServicesCard from '@/components/CustomServicesCard';
 
-const page = () => {
+const Page = () => {
     const [services, setServices] = useState(servicesAzureCloud);
     const [header, setHeader] = useState((
       <>
@@ -57,4 +57,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

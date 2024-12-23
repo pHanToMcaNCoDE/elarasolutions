@@ -11,7 +11,7 @@ const NurtureTalents = () => {
             </h1>
             <p className='w-full text-black leading-[22.4px] lg:leading-[25.6px] font-normal text-[.875rem] lg:text-[1rem] font-instrument'>
             Embrace growth with us through our paid internship initiative, celebrating and nurturing diverse talents in brand, content, and media within a progressive and supportive  atmosphere. 
-            Step into the realm of the next-generation advertising agency, gaining invaluable real-world skills to propel your career forward. As a valued member of our team, you'll seamlessly integrate into our dynamic culture, actively shadowing, learning, and collaborating with colleagues of diverse backgrounds and skill sets.
+            Step into the realm of the next-generation advertising agency, gaining invaluable real-world skills to propel your career forward. As a valued member of our team, you&apos;ll seamlessly integrate into our dynamic culture, actively shadowing, learning, and collaborating with colleagues of diverse backgrounds and skill sets.
             </p>
         </div>
         <div className='relative overflow-hidden'>

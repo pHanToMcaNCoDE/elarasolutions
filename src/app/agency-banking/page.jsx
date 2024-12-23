@@ -15,7 +15,7 @@ import OurProducts from '../home/OurProducts'
 import OurDevProcess from '@/components/AgencyDevProcess';
 
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
         Why Choose Elara Solutions
@@ -46,4 +46,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

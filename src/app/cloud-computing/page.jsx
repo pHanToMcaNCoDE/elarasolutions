@@ -13,7 +13,7 @@ import FAQGeneral from '@/components/FAQGeneral'
 import LongCard from '@/components/LongCard'
 import ServicesCard from '@/components/ServicesCard'
 
-const page = () => {
+const Page = () => {
     const [header, setHeader] = useState((
       <>
       Why Choose<br className='lg:hidden'/> Elara Solutions <br className='lg:hidden'/>for Cloud Computing?
@@ -64,4 +64,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

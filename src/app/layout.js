@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import StoreProvider from "@/lib/StoreProvider";
 import { Instrument_Sans, Bevan, DM_Sans, Manrope } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
+import { ChakraProvider } from '@chakra-ui/react'; // Import ChakraProvider
 
 const instrumentSans = Instrument_Sans({
   subsets: ["latin"],
@@ -32,9 +33,9 @@ export default function RootLayout({ children }) {
         className={`${instrumentSans.className} ${bevan.className} ${dmSans.className} ${manrope.className}`}
       >
         <NextTopLoader color="#88E755" />
-        <Navbar />
-        <StoreProvider>{children}</StoreProvider>
-        <Footer />
+          <Navbar />
+          <StoreProvider>{children}</StoreProvider>
+          <Footer />
       </body>
     </html>
   );
