@@ -3,7 +3,7 @@ import React from 'react'
 import ceo from '../../../../public/assets/about-us/ceo.svg';
 import partner from '../../../../public/assets/about-us/partner.svg';
 import cos from '../../../../public/assets/about-us/cos.svg';
-import assistant from '../../../../public/assets/about-us/assistant.svg';
+import assistant from '../../../../public/assets/about-us/ea.jpeg';
 
 const HumansOfElara = () => {
   return (

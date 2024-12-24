@@ -1140,6 +1140,70 @@ export const whyIAM = [
 
 
 
+
+// Why CRM
+
+export const whyCRM = [
+    {
+        id: 1,
+        heading: 'Industry Expertise',
+        desc: 'Our team of experts understands the complexities of various regulatory environments and provides tailored compliance solutions to meet your specific needs.'
+    },
+    {
+        id: 2,
+        heading: 'Proactive Approach',
+        desc: 'We don’t just react to risks—we help you prevent them by identifying potential threats and implementing mitigation strategies before they affect your business.'
+    },
+    {
+        id: 3,
+        heading: 'Comprehensive Solutions',
+        desc: 'We offer a full range of services from risk assessment to continuous monitoring and incident response, ensuring your business is always protected.'
+    },
+    {
+        id: 4,
+        heading: 'Regulatory Knowledge',
+        desc: 'With deep knowledge of global and industry-specific regulations, we ensure that your business stays compliant in any market.'
+    },
+]
+
+
+
+
+
+
+
+
+// Why CRM
+
+export const whyEPS = [
+    {
+        id: 1,
+        heading: 'Proven Expertise',
+        desc: 'Our team of cybersecurity experts understands the latest threats and knows how to protect your endpoints effectively.'
+    },
+    {
+        id: 2,
+        heading: 'Tailored Solutions',
+        desc: 'We customise our endpoint security services to suit your organisation’s unique requirements, ensuring maximum protection without compromising performance.'
+    },
+    {
+        id: 3,
+        heading: '24/7 Monitoring',
+        desc: 'We offer continuous monitoring to detect and respond to threats in real time, keeping your systems secure at all times.'
+    },
+    {
+        id: 4,
+        heading: 'Comprehensive Coverage',
+        desc: 'From mobile devices to IoT, we provide holistic security across all types of endpoints connected to your network.'
+    },
+]
+
+
+
+
+
+
+
 // SERVICES
 
 
@@ -2168,6 +2232,108 @@ export const servicesIAM = [
 
 
 
+
+
+
+
+
+
+
+
+
+// CRM Services
+
+
+
+export const servicesCRM = [
+    {
+        id: 1,
+        name: 'Regulatory Compliance Assessment',
+        desc: 'We assess your business’s compliance with relevant regulations such as GDPR, HIPAA, and SOC 2, helping you identify gaps and implement corrective measures.',
+    },
+    {
+        id: 2,
+        name: 'Risk Identification & Mitigation',
+        desc: 'We identify potential risks (both internal and external) and provide solutions to mitigate these risks, including security threats, operational risks, and legal liabilities.'
+    },
+    {
+        id: 3,
+        name: 'Policy & Procedure Development',
+        desc: 'We help develop and implement policies and procedures that align with industry standards and regulatory requirements, ensuring your organisation’s operations remain compliant.'
+    },
+    {
+        id: 4,
+        name: 'Continuous Monitoring & Reporting',
+        desc: 'Our team offers continuous monitoring of compliance processes and risk exposure, providing real-time reports that help you stay ahead of potential threats.'
+    },
+    {
+        id: 5,
+        name: 'Incident Response & Management',
+        desc: 'In case of a compliance breach or risk event, we offer incident management and response services to quickly address the issue, limit damage, and ensure compliance is restored.'
+    },
+    {
+        id: 6,
+        name: 'Audit & Compliance Assurance',
+        desc: 'We conduct regular audits to verify that your business is adhering to regulatory standards, providing detailed reports and recommendations for improvements.'
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+// EPS Services
+
+
+
+export const servicesEPS = [
+    {
+        id: 1,
+        name: 'Endpoint Protection Platforms (EPP)',
+        desc: 'We deploy advanced security software across all devices in your network, providing protection against known and emerging threats.',
+    },
+    {
+        id: 2,
+        name: 'Threat Intelligence & Analytics',
+        desc: 'Our endpoint security includes threat intelligence feeds that analyse potential risks and provide proactive measures to protect your systems.'
+    },
+    {
+        id: 3,
+        name: 'Mobile Device Management (MDM)',
+        desc: 'We secure mobile endpoints with policies for remote wipes, device encryption, and access control to ensure the safety of sensitive data.'
+    },
+    {
+        id: 4,
+        name: 'Endpoint Detection and Response (EDR)',
+        desc: 'We offer continuous monitoring and automated response to detect unusual activity or breaches at the endpoint level, minimising the risk of compromise.'
+    },
+    {
+        id: 5,
+        name: 'Data Encryption',
+        desc: 'All sensitive data on your endpoints is encrypted, ensuring that even if a device is lost or stolen, the information remains secure.'
+    },
+    {
+        id: 6,
+        name: 'Patch Management',
+        desc: 'Regular updates and patches for software vulnerabilities are applied automatically to your endpoints to close any security gaps.'
+    }
+]
+
+
+
+
+
+
+
+
+
 // Technologies
 
 
@@ -2906,6 +3072,112 @@ export const benefitsCCP = [
         icons: '',
     },
 ]
+
+
+
+
+
+
+
+// Compliance & Risk Management Benefits
+
+
+
+
+export const benefitsCRM = [
+    {
+        id: 1,
+        name: 'Reduced Legal and Financial Risks',
+        desc: 'By ensuring compliance with industry regulations, we help your business avoid costly penalties, lawsuits, and reputational damage.',
+        icons: '',
+    },
+    {
+        id: 2,
+        name: 'Improved Operational Efficiency',
+        desc: 'With streamlined compliance processes and risk mitigation strategies in place, your organisation can operate more efficiently, focusing on core business goals.',
+        icons: '',
+    },
+    {
+        id: 3,
+        name: 'Enhanced Reputation & Trust',
+        desc: "Demonstrating your commitment to compliance and risk management builds trust with customers, partners, and investors, enhancing your business's reputation.",
+        icons: '',
+    },
+    {
+        id: 4,
+        name: 'Proactive Risk Prevention',
+        desc: 'We help you identify and mitigate potential risks before they escalate, reducing the impact on your operations and safeguarding your business continuity.',
+        icons: '',
+    },
+    {
+        id: 5,
+        name: 'Regulatory Readiness',
+        desc: 'Stay prepared for audits and inspections with a well-defined compliance framework, ensuring your business is always audit-ready and meets regulatory requirements.',
+        icons: '',
+    },
+    {
+        id: 6,
+        name: 'Scalable Solutions',
+        desc: 'As your business grows, we provide scalable compliance and risk management solutions that can evolve with your changing needs and regulatory environment.',
+        icons: '',
+    },
+]
+
+
+
+
+
+
+
+
+
+// Compliance & Risk Management Benefits
+
+
+
+
+export const benefitsEPS = [
+    {
+        id: 1,
+        name: 'Comprehensive Threat Protection',
+        desc: 'Protects your organisation from a wide range of cyber threats such as malware, ransomware, and phishing attacks targeting endpoints.',
+        icons: '',
+    },
+    {
+        id: 2,
+        name: 'Reduced Risk of Data Breaches',
+        desc: 'By securing devices, we prevent unauthorised access to sensitive information, helping mitigate the risk of data theft and breaches.',
+        icons: '',
+    },
+    {
+        id: 3,
+        name: 'Improved Compliance',
+        desc: "Ensures your organisation meets regulatory requirements (such as GDPR, and HIPAA) by protecting devices that store or process personal and sensitive data.",
+        icons: '',
+    },
+    {
+        id: 4,
+        name: 'Remote Workforce Security',
+        desc: 'With remote work becoming the norm, our endpoint security solutions safeguard devices from remote locations, ensuring that employees working from home are equally protected.',
+        icons: '',
+    },
+    {
+        id: 5,
+        name: 'Enhanced Incident Response',
+        desc: 'With continuous monitoring, threats are detected in real time, enabling quick action to contain and mitigate attacks before they spread.',
+        icons: '',
+    },
+    {
+        id: 6,
+        name: 'Minimal Disruption',
+        desc: 'Automated threat detection and response minimise downtime and avoid disruption to business operations.',
+        icons: '',
+    },
+]
+
+
+
+
 
 
 
@@ -4298,6 +4570,109 @@ export const faqIAM = [
         desc: 'By automating user account management, reducing manual intervention, and streamlining access control processes, IAM reduces the time and resources spent on managing security.',
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FAQS CRM
+
+
+export const faqCRM = [
+    {
+        id: 1,
+        name: 'What is Compliance & Risk Management?',
+        desc: 'It is the process of identifying, managing, and mitigating risks to ensure that your organisation adheres to regulatory requirements and maintains a secure, efficient operation.'
+    },
+    {
+        id: 2,
+        name: 'Why is Compliance & Risk Management important?',
+        desc: 'It helps protect your organisation from legal, financial, and operational risks, ensuring you meet regulatory standards and avoid costly penalties.'
+    },
+    {
+        id: 3,
+        name: 'How do you assess compliance and risks?',
+        desc: 'We conduct thorough assessments using industry-standard frameworks, reviewing your processes, policies, and systems to identify potential compliance gaps and risks.'
+    },
+    {
+        id: 4,
+        name: 'What is the role of continuous monitoring in compliance?',
+        desc: 'Continuous monitoring helps us identify compliance violations or emerging risks in real time, allowing for quick corrective actions and reducing potential impacts.'
+    },
+    {
+        id: 5,
+        name: 'Can you help us prepare for regulatory audits?',
+        desc: 'Yes, we provide the necessary support to ensure your business is always audit-ready, offering documentation, reporting, and policy frameworks to pass regulatory inspections.'
+    },
+    {
+        id: 6,
+        name: 'How do you handle data protection and privacy concerns?',
+        desc: 'We implement robust data protection strategies, including encryption, access control, and compliance with privacy regulations such as GDPR, to ensure your data is secure and private.',
+    },
+    {
+        id: 7,
+        name: 'What industries do you specialise in for Compliance & Risk Management?',
+        desc: 'We specialise in various industries, including healthcare, finance, manufacturing, and technology, tailoring our solutions to meet the specific compliance and risk management needs of each sector.',
+    }
+]
+
+
+
+
+
+// FAQS EPS
+
+
+export const faqEPS = [
+    {
+        id: 1,
+        name: 'What is Endpoint Security?',
+        desc: 'Endpoint security refers to the practice of securing end-user devices such as laptops, smartphones, and tablets that connect to a network, protecting them from malware, unauthorised access, and data breaches.'
+    },
+    {
+        id: 2,
+        name: 'Why is Endpoint Security important?',
+        desc: 'Endpoint security is crucial because these devices often serve as entry points for cyberattacks. Securing them helps prevent unauthorised access to your network and data.'
+    },
+    {
+        id: 3,
+        name: 'What types of devices do you secure?',
+        desc: 'We secure a wide range of devices, including desktops, laptops, mobile devices, servers, and IoT devices connected to your network.'
+    },
+    {
+        id: 4,
+        name: 'How does Endpoint Detection and Response (EDR) work?',
+        desc: 'EDR continuously monitors endpoints for suspicious activity, detects potential threats, and automates responses to prevent the spread of malware or data breaches.'
+    },
+    {
+        id: 5,
+        name: 'How can Endpoint Security help with remote work?',
+        desc: 'Endpoint security ensures that devices used by remote employees are fully protected, no matter where they connect from, securing data and applications even outside the company’s perimeter.'
+    },
+    {
+        id: 6,
+        name: 'Is Endpoint Security only for large enterprises?',
+        desc: 'No, endpoint security is essential for organisations of all sizes. Small and medium-sized businesses are just as vulnerable to endpoint attacks, and they benefit from robust protection.',
+    },
+    {
+        id: 7,
+        name: 'Can endpoint security prevent all cyberattacks?',
+        desc: 'While no solution is 100% foolproof, endpoint security significantly reduces the risk of attacks and breaches by providing comprehensive threat prevention and rapid response capabilities.',
+    }
+]
+
+
+
+
 
 
 
@@ -5959,5 +6334,114 @@ export const iamProcess = [
         no: '06',
         name: 'Ongoing Management & Support',
         desc: 'Our IAM solutions are continuously updated to adapt to new threats and changing regulatory requirements. We provide ongoing support to maintain security.'
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CRM processes
+
+
+export const crmProcess = [
+    {
+        id: 1,
+        no: '01',
+        name: 'Initial Consultation & Assessment',
+        desc: "We begin by understanding your organisation's regulatory environment and business objectives and conducting a comprehensive assessment of your current compliance and risk management framework."
+    },
+    {
+        id: 2,
+        no: '02',
+        name: 'Risk & Compliance Gap Analysis',
+        desc: 'We identify gaps in your existing systems and processes, helping you understand areas where compliance or risk mitigation is lacking.'
+    },
+    {
+        id: 3,
+        no: '03',
+        name: 'Tailored Solution Development',
+        desc: 'Based on our findings, we design and implement a customised compliance and risk management strategy that meets industry regulations and mitigates risks specific to your organisation.'
+    },
+    {
+        id: 4,
+        no: '04',
+        name: 'Ongoing Monitoring & Reporting',
+        desc: 'Our team continuously monitors your risk exposure and compliance status, providing regular reports that highlight any potential issues or areas of improvement.'
+    },
+    {
+        id: 5,
+        no: '05',
+        name: 'Training & Awareness Programs',
+        desc: 'We offer training sessions to ensure your employees understand compliance requirements, risk management practices, and how to avoid non-compliance.'
+    },
+    {
+        id: 6,
+        no: '06',
+        name: 'Incident Management & Remediation',
+        desc: 'In the event of a compliance breach or risk exposure, we provide rapid response strategies, ensuring that the issue is contained and that compliance is restored quickly.'
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// EPS processes
+
+
+export const epsProcess = [
+    {
+        id: 1,
+        no: '01',
+        name: 'Assessment & Risk Evaluation',
+        desc: "We begin by assessing your existing endpoint security posture and identifying any vulnerabilities or gaps in protection."
+    },
+    {
+        id: 2,
+        no: '02',
+        name: 'Deployment of Security Solutions',
+        desc: 'Based on the assessment, we deploy endpoint security tools tailored to your business needs, ensuring each device is appropriately secured.'
+    },
+    {
+        id: 3,
+        no: '03',
+        name: 'Ongoing Monitoring & Threat Detection',
+        desc: 'Our team continuously monitors endpoints for suspicious activities and applies real-time analysis to detect and respond to potential threats.'
+    },
+    {
+        id: 4,
+        no: '04',
+        name: 'Incident Response & Recovery',
+        desc: 'In case of an attack, our response team acts immediately to mitigate the threat, contain the breach, and restore affected systems.'
+    },
+    {
+        id: 5,
+        no: '05',
+        name: 'Regular Updates & Patching',
+        desc: 'We ensure that all endpoints are regularly updated with the latest security patches and updates to protect against new vulnerabilities.'
+    },
+    {
+        id: 6,
+        no: '06',
+        name: 'Continuous Improvement',
+        desc: 'As cyber threats evolve, we continuously adjust and enhance your endpoint security policies to stay ahead of emerging risks.'
     }
 ]

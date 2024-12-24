@@ -17,7 +17,7 @@ const TechnologiesProcess = ({techTitle, proc}) => {
 
                         <div key={index} className='w-[328px] md:w-full xl:w-[608px] bg-graySix rounded-[16px] h-[360px] py-[40px] md:py-[56px] px-[16px] md:px-[36px] gap-[40px] md:gap-[42px] flex flex-col justify-center items-start border border-grayEight/[10%]'>
                             {
-                                pathname === '/application-security' || pathname === '/network-security' || pathname === '/data-security-and-encryption' || pathname === '/cloud-security' || pathname === '/iam' ? (
+                                pathname === '/application-security' || pathname === '/network-security' || pathname === '/data-security-and-encryption' || pathname === '/cloud-security' || pathname === '/iam' || pathname === '/compliance-and-risk-management' || pathname === '/endpoint-security' ? (
                                     <h1 className='text-greenTwo font-bold font-instrument leading-[48px] md:leading-[72px] text-[2rem] md:text-[3rem]'>{process.no}</h1>
                                 ) : (
                                     <h1 className='text-greenTwo font-bold font-instrument leading-[48px] md:leading-[72px] text-[2rem] md:text-[3rem]'>{process.id}</h1>
